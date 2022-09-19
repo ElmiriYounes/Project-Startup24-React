@@ -2,6 +2,8 @@
 
 ![demo gif](./src/assets/images/demo.gif "demo gif")
 
+## [ ----> [View demo](https://elmiriyounes.github.io/Project-Startup24-React/) <---- ]
+
 ## About-the-project 🚀
 
 This is one of my FrontEnd React project, it is a demo one page showing animations skills.
