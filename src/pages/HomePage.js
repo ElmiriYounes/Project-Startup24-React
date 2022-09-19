@@ -27,7 +27,7 @@ const Homepage = () => {
       {/* Hero Start */}
       <Container bg_color="rgba(0,38,130,1)" fluid ref={homeRef}>
         <Container>
-          <Hero />
+          <Hero scrollTo={aboutRef} />
         </Container>
       </Container>
       {/* Hero End */}

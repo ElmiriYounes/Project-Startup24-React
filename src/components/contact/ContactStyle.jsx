@@ -22,7 +22,7 @@ export const IconWrap = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    width: 100%;
+    width: 90%;
     margin: 10px 0;
   }
 `;
@@ -50,4 +50,8 @@ export const IconSpan = styled.span`
   transition: all 0.5s ease-out;
   margin-top: 20px;
   font-size: 2rem;
+
+  @media screen and (max-width: 480px) {
+    font-size: 1.5rem;
+  }
 `;

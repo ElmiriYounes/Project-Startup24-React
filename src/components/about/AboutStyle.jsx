@@ -132,7 +132,7 @@ function getNthChildOverTilt() {
 }
 
 export const ImgWrap = styled.div`
-  background-color: #0040d79c;
+  background-color: #0040d7;
   display: flex;
   justify-content: center;
   align-items: center;

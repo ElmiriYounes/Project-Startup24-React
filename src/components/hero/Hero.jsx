@@ -10,8 +10,7 @@ import {
 } from "./HeroStyle";
 import Startup_PNG from "../../assets/images/startup.png";
 
-const Hero = () => {
-
+const Hero = (props) => {
   return (
     <HeroContainer>
       <HeroContent>
@@ -29,7 +28,11 @@ const Hero = () => {
             voluptatibus fugiat, adipisci molestiae omnis quos, vero qui
             excepturi consequatur obcaecati? Eius!
           </h4>
-          <ButtonWrap>
+          <ButtonWrap
+            onClick={() => {
+              window.scrollTo(0, props.scrollTo.current.offsetTop);
+            }}
+          >
             <span className="over_tilt"></span>
             <span className="over_tilt"></span>
             <span className="over_tilt"></span>

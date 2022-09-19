@@ -223,7 +223,7 @@ export const ScrollYProgress = styled.div`
   width: 0;
   height: 100%;
   left: 0;
-  background-color: #ee5622;
+  background-color: #ff4000;
   transition: all 0.1s linear;
 `;
 
