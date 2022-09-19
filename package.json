@@ -1,7 +1,7 @@
 {
   "name": "startup",
   "version": "0.1.0",
-  "homepage": "https://elmiriyounes.github.io/startup24/",
+  "homepage": "https://elmiriyounes.github.io/startup24/Project-Startup24-React",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
