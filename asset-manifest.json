@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Project-Startup24-React/static/js/main.8b2dcb15.js",
+    "main.js": "/Project-Startup24-React/static/js/main.bf767fa6.js",
     "static/media/startup.png": "/Project-Startup24-React/static/media/startup.b1cf3ad3b33904b976ca.png",
     "static/media/about_us_img.png": "/Project-Startup24-React/static/media/about_us_img.5dc741d4850365783462.png",
     "static/media/logo.png": "/Project-Startup24-React/static/media/logo.8e5ac339b83a6e05000f.png",
     "index.html": "/Project-Startup24-React/index.html",
-    "main.8b2dcb15.js.map": "/Project-Startup24-React/static/js/main.8b2dcb15.js.map"
+    "main.bf767fa6.js.map": "/Project-Startup24-React/static/js/main.bf767fa6.js.map"
   },
   "entrypoints": [
-    "static/js/main.8b2dcb15.js"
+    "static/js/main.bf767fa6.js"
   ]
 }
