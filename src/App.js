@@ -8,7 +8,7 @@ function App() {
 
       <GlobalStyle/>
       <Routes>
-        <Route path="/" exact element={<HomePage/>}/>
+        <Route path="/Project-Startup24-React" exact element={<HomePage/>}/>
       </Routes>
     </Router>
   );
