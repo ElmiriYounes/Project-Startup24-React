@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/startup24/static/js/main.507ee36d.js",
+    "static/media/startup.png": "/startup24/static/media/startup.b1cf3ad3b33904b976ca.png",
+    "static/media/about_us_img.png": "/startup24/static/media/about_us_img.5dc741d4850365783462.png",
+    "static/media/logo.png": "/startup24/static/media/logo.8e5ac339b83a6e05000f.png",
+    "index.html": "/startup24/index.html",
+    "main.507ee36d.js.map": "/startup24/static/js/main.507ee36d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.507ee36d.js"
+  ]
+}
