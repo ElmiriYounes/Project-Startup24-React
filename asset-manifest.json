@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.js": "/Project-Startup24-React/static/js/main.fad7396a.js",
+    "main.js": "/Project-Startup24-React/static/js/main.f083e756.js",
     "static/js/787.d07b30b9.chunk.js": "/Project-Startup24-React/static/js/787.d07b30b9.chunk.js",
     "static/media/startup.webp": "/Project-Startup24-React/static/media/startup.f8922393d5224145ec89.webp",
+    "service-worker.js": "/Project-Startup24-React/service-worker.js",
     "static/media/about_us_img.webp": "/Project-Startup24-React/static/media/about_us_img.a0b3bbf556e13f030159.webp",
     "static/media/logo.webp": "/Project-Startup24-React/static/media/logo.b27db6931c34ab415697.webp",
     "index.html": "/Project-Startup24-React/index.html",
-    "main.fad7396a.js.map": "/Project-Startup24-React/static/js/main.fad7396a.js.map",
+    "main.f083e756.js.map": "/Project-Startup24-React/static/js/main.f083e756.js.map",
     "787.d07b30b9.chunk.js.map": "/Project-Startup24-React/static/js/787.d07b30b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.fad7396a.js"
+    "static/js/main.f083e756.js"
   ]
 }
