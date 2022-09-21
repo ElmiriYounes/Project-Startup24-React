@@ -29,7 +29,7 @@ export const Title = styled.div`
   h1 {
     font-size: "3rem";
   }
-  h4 {
+  p {
     padding: 30px 0;
     line-height: 30px;
     color: white;

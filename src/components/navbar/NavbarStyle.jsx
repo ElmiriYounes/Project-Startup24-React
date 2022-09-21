@@ -72,15 +72,15 @@ export const LinkItems = styled.ul`
   }
 
   @media screen and (min-width: 961px) {
-    #link {
+    .link {
       position: relative;
     }
 
-    #link:hover {
+    .link:hover {
       color: lightgray;
     }
 
-    #link #AiOutlineRight {
+    .link #AiOutlineRight {
       position: absolute;
       transform: rotate(225deg);
       top: -10px;
@@ -91,7 +91,7 @@ export const LinkItems = styled.ul`
       pointer-events: none;
     }
 
-    #link:hover #AiOutlineRight {
+    .link:hover #AiOutlineRight {
       top: -15px;
       left: -15px;
       opacity: 1;
@@ -117,11 +117,11 @@ export const LinkItem = styled.li`
     }
     transform: translateX(-100%);
     opacity: 0;
-    #link {
+    .link {
       color: white;
       letter-spacing: 2px;
     }
-    #link #AiOutlineRight {
+    .link #AiOutlineRight {
       display: none;
     }
   }
@@ -130,13 +130,13 @@ export const LinkItem = styled.li`
       margin-right: 0;
       padding-right: 0;
     }
-    #link {
+    .link {
       color: white;
       letter-spacing: 2px;
       transition: 0.3s ease-out;
       position: relative;
     }
-    #link::after {
+    .link::after {
       position: absolute;
       border-radius: 10px;
       background-color: rgb(219, 147, 21);
@@ -147,7 +147,7 @@ export const LinkItem = styled.li`
       bottom: -7.5px;
       transition: 0.3s ease-out;
     }
-    #link:hover::after {
+    .link:hover::after {
       width: 100%;
       left: 0;
     }

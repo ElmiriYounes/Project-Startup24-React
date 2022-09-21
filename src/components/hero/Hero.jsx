@@ -22,12 +22,12 @@ const Hero = (props) => {
             <br />
             delivered in 24h !
           </h1>
-          <h4>
+          <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores,
             rem deserunt officiis unde veritatis nostrum quidem vitae itaque
             voluptatibus fugiat, adipisci molestiae omnis quos, vero qui
             excepturi consequatur obcaecati? Eius!
-          </h4>
+          </p>
           <ButtonWrap
             onClick={() => {
               window.scrollTo(0, props.scrollTo.current.offsetTop);

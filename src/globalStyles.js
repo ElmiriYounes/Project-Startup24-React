@@ -51,6 +51,7 @@ export const TitleSection = styled(motion.h1)`
   @media screen and (max-width: 1080px) {
   }
 `;
+
 export const BorderBottom = styled(motion.span)`
   display: block;
   margin: 0 auto;
