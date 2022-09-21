@@ -8,4 +8,5 @@ root.render(
     <App />
 );
 
+serviceWorkerRegistration.register();
 reportWebVitals(console.log);
