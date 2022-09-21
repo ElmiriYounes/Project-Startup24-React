@@ -68,7 +68,7 @@ export const ButtonWrap = styled.div`
     padding: 10px 26px;
     font-size: 1.3rem;
     border: none;
-    background-color: rgb(219, 147, 21);
+    background-color: rgb(195, 132, 23);
     color: white;
     letter-spacing: 2px;
     box-shadow: 0 0 60px -15px white;

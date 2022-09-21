@@ -14,7 +14,7 @@ export const WhyUs = styled.div`
 
 export const WhyUsCard = styled.div`
   margin: 10px;
-  background-color: rgb(219, 147, 21);
+  background-color: rgb(195, 132, 23);
   border-radius: 15px;
   color: white;
   width: 30%;

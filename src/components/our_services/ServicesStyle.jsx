@@ -36,7 +36,7 @@ export const ServiceCard = styled.div`
   transition: all 1s linear;
   width: 100%;
   height: 100%;
-  background-color: rgb(219, 147, 21);
+  background-color: rgb(195, 132, 23);
   border-radius: 20px;
   display: flex;
   justify-content: center;
