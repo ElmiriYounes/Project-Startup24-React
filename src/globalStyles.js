@@ -1,8 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { motion } from "framer-motion";
-import Montserrat from './fonts/Montserrat/Montserrat-Regular.ttf';
-
-
+import Montserrat from "./fonts/Montserrat/Montserrat-Regular.ttf";
 
 const GlobalStyle = createGlobalStyle`
 @font-face {
@@ -19,6 +17,14 @@ const GlobalStyle = createGlobalStyle`
     /* font-family: 'Montserrat', 'sans-serif'; */
     letter-spacing: 1px;
     scroll-behavior: smooth;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 html, body{
