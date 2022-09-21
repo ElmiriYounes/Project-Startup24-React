@@ -7,6 +7,7 @@ import Montserrat from './fonts/Montserrat/Montserrat-Regular.ttf';
 const GlobalStyle = createGlobalStyle`
 @font-face {
   font-family: "Montserrat";
+  font-display: swap;
   src: url(${Montserrat}) format("truetype");
 }
 
