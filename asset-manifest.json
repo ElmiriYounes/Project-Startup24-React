@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Project-Startup24-React/static/js/main.4e7b3b4f.js",
-    "static/media/startup.png": "/Project-Startup24-React/static/media/startup.b1cf3ad3b33904b976ca.png",
-    "static/media/about_us_img.png": "/Project-Startup24-React/static/media/about_us_img.5dc741d4850365783462.png",
-    "static/media/logo.png": "/Project-Startup24-React/static/media/logo.8e5ac339b83a6e05000f.png",
+    "main.js": "/Project-Startup24-React/static/js/main.d6bf3a02.js",
+    "static/media/startup.webp": "/Project-Startup24-React/static/media/startup.f8922393d5224145ec89.webp",
+    "static/media/about_us_img.webp": "/Project-Startup24-React/static/media/about_us_img.a0b3bbf556e13f030159.webp",
+    "static/media/logo.webp": "/Project-Startup24-React/static/media/logo.b27db6931c34ab415697.webp",
     "index.html": "/Project-Startup24-React/index.html",
-    "main.4e7b3b4f.js.map": "/Project-Startup24-React/static/js/main.4e7b3b4f.js.map"
+    "main.d6bf3a02.js.map": "/Project-Startup24-React/static/js/main.d6bf3a02.js.map"
   },
   "entrypoints": [
-    "static/js/main.4e7b3b4f.js"
+    "static/js/main.d6bf3a02.js"
   ]
 }
