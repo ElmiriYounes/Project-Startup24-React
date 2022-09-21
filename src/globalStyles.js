@@ -1,12 +1,21 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { motion } from "framer-motion";
+import Montserrat from './fonts/Montserrat/Montserrat-Regular.ttf';
+
+
 
 const GlobalStyle = createGlobalStyle`
+@font-face {
+  font-family: "Montserrat";
+  src: url(${Montserrat}) format("truetype");
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', 'sans-serif';
+    font-family: "Montserrat";
+    /* font-family: 'Montserrat', 'sans-serif'; */
     letter-spacing: 1px;
     scroll-behavior: smooth;
 }
@@ -36,14 +45,14 @@ export const Container = styled.div`
   margin: 0 auto;
   background: ${(props) => props.bg_color};
   padding-bottom: ${(props) => props.paddingBottom && "20px"};
-  
-  & >*{
+
+  & > * {
     padding-top: ${(props) => props.paddingTop && "100px"};
   }
 `;
 
 export const TitleSection = styled(motion.h1)`
-  color: ${(props) => props.color || 'white'};
+  color: ${(props) => props.color || "white"};
   font-size: 3rem;
   padding-bottom: 10px;
   text-align: center;

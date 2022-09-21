@@ -7,7 +7,15 @@ function App() {
     <Router>
       <GlobalStyle />
       <Routes>
-        <Route path="/" exact element={<HomePage />} />
+        <Route
+          path={
+            window.location.hostname === "localhost"
+              ? "/"
+              : "/Project-Startup24-React"
+          }
+          exact
+          element={<HomePage />}
+        />
       </Routes>
     </Router>
   );
