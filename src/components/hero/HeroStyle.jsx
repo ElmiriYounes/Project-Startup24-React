@@ -122,6 +122,7 @@ export const Image = styled.div`
 
 export const ImageWrap = styled.div`
   width: 450px;
+  height: 370px;
   background-color: #0040d79c;
   border-radius: 20px;
   display: flex;
@@ -135,6 +136,7 @@ export const ImageWrap = styled.div`
 
   img {
     width: 100%;
+    height: 100%;
     transition: all 0.6s ease-out;
     transform: translateZ(0);
   }

@@ -12,7 +12,7 @@ import {
   ScrollToTop,
 } from "./NavbarStyle";
 import { AiOutlineRight } from "react-icons/ai";
-import Logo_PNG from "../../assets/images/logo.png";
+import Logo_PNG from "../../assets/images/logo.webp";
 import { BsArrowUpSquareFill } from "react-icons/bs";
 
 const Navbar = (props) => {

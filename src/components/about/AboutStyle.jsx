@@ -146,6 +146,8 @@ export const ImgWrap = styled.div`
   img {
     transition: all 0.3s linear;
     position: relative;
+    width: 350px;
+    height: 100%;
   }
 `;
 

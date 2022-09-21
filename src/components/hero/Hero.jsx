@@ -8,7 +8,7 @@ import {
   ButtonWrap,
   Circle,
 } from "./HeroStyle";
-import Startup_PNG from "../../assets/images/startup.png";
+import Startup_PNG from "../../assets/images/startup.webp";
 
 const Hero = (props) => {
   return (
