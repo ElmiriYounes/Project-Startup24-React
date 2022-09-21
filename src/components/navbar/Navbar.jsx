@@ -72,7 +72,7 @@ const Navbar = (props) => {
       <Nav>
         <Logo>
           <Link to="/">
-            <img src={Logo_PNG} alt="logo" width="200px" />
+            <img src={Logo_PNG} alt="logo" />
           </Link>
         </Logo>
         <LinkItems className={clicked ? "open_mobile_submenu" : ""}>

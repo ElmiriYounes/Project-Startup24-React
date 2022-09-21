@@ -32,11 +32,17 @@ export const Logo = styled.div`
     align-items: center;
   }
 
+  a img {
+      width: 200px;
+      height: 100%;
+    }
+
   @media screen and (max-width: 480px) {
     font-size: 1rem;
 
     a img {
       width: 150px;
+      height: 100%;
     }
   }
 `;
