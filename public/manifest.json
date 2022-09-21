@@ -15,13 +15,19 @@
       "purpose": "maskable"
     },
     {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "maskable"
+      },
+    {
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
     }
   ],
-  "start_url": "https://elmiriyounes.github.io/Project-Startup24-React/",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
