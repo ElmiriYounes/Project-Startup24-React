@@ -84,7 +84,7 @@ const Navbar = (props) => {
             >
               <Link
                 to=""
-                class="link"
+                className="link"
                 onClick={() => {
                   window.scrollTo(0, props.scrollTo[index].current.offsetTop-50);
                   setClick(false);

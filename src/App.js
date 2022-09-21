@@ -5,10 +5,9 @@ import GlobalStyle from "./globalStyles";
 function App() {
   return (
     <Router>
-
-      <GlobalStyle/>
+      <GlobalStyle />
       <Routes>
-        <Route path="/Project-Startup24-React" exact element={<HomePage/>}/>
+        <Route path="/" exact element={<HomePage />} />
       </Routes>
     </Router>
   );
