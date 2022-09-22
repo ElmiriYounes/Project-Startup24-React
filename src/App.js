@@ -3,13 +3,14 @@ import HomePage from "./pages/HomePage";
 import GlobalStyle from "./globalStyles";
 
 function App() {
+  console.log(window.location.hostname);
   return (
     <Router>
       <GlobalStyle />
       <Routes>
         <Route
           path={
-            window.location.hostname === "localhost"
+            window.location.hostname === "localhost:3000"
               ? "/"
               : "/Project-Startup24-React"
           }
