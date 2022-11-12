@@ -12,7 +12,7 @@ import {
   ScrollToTop,
 } from "./NavbarStyle";
 import { AiOutlineRight } from "react-icons/ai";
-import Logo_PNG from "../../assets/images/logo.webp";
+import Logo_PNG from "../../assets/images/logo.png";
 import { BsArrowUpSquareFill } from "react-icons/bs";
 
 const Navbar = (props) => {
@@ -72,7 +72,7 @@ const Navbar = (props) => {
       <Nav>
         <Logo>
           <Link to="/">
-            <img src={Logo_PNG} alt="logo" />
+              <img src={Logo_PNG} alt="logo" />
           </Link>
         </Logo>
         <LinkItems className={clicked ? "open_mobile_submenu" : ""}>
@@ -86,7 +86,10 @@ const Navbar = (props) => {
                 to=""
                 className="link"
                 onClick={() => {
-                  window.scrollTo(0, props.scrollTo[index].current.offsetTop-50);
+                  window.scrollTo(
+                    0,
+                    props.scrollTo[index].current.offsetTop - 50
+                  );
                   setClick(false);
                 }}
               >
