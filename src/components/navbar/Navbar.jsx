@@ -13,6 +13,7 @@ import {
 } from "./NavbarStyle";
 import { AiOutlineRight } from "react-icons/ai";
 import Logo_PNG from "../../assets/images/logo.png";
+import Logo_WEBP from "../../assets/images/logo.webp";
 import { BsArrowUpSquareFill } from "react-icons/bs";
 
 const Navbar = (props) => {
@@ -72,7 +73,11 @@ const Navbar = (props) => {
       <Nav>
         <Logo>
           <Link to="/">
+            <picture>
+              <source srcset={Logo_WEBP} type="image/webp" />
+              <source srcset={Logo_PNG} type="image/png" />
               <img src={Logo_PNG} alt="logo" />
+            </picture>
           </Link>
         </Logo>
         <LinkItems className={clicked ? "open_mobile_submenu" : ""}>
