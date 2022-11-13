@@ -8,7 +8,8 @@ import {
   ButtonWrap,
   Circle,
 } from "./HeroStyle";
-import Startup_PNG from "../../assets/images/startup.webp";
+import Startup_WEBP from "../../assets/images/startup.webp";
+import Startup_PNG from "../../assets/images/startup.png";
 
 const Hero = (props) => {
   return (
@@ -55,7 +56,11 @@ const Hero = (props) => {
           <span className="over_tilt"></span>
           <span className="over_tilt"></span>
           <ImageWrap className="img-wrap">
-            <img src={Startup_PNG} alt="vector startup" />
+            <picture>
+              <source srcset={Startup_WEBP} type="image/webp" />
+              <source srcset={Startup_PNG} type="image/png" />
+              <img src={Startup_PNG} alt="image" />
+            </picture>
           </ImageWrap>
         </Image>
       </HeroContent>

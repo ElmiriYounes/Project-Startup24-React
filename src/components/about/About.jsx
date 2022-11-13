@@ -10,7 +10,8 @@ import {
 } from "./AboutStyle";
 import { MdBusiness, MdAttachMoney } from "react-icons/md";
 import { TbTruckDelivery } from "react-icons/tb";
-import about_us_img from "../../assets/images/about_us_img.webp";
+import about_us_img_WEBP from "../../assets/images/about_us_img.webp";
+import about_us_img_PNG from "../../assets/images/about_us_img.png";
 
 function About({ selector }) {
   const [windowScroll, setWindowScroll] = useState(0);
@@ -75,7 +76,11 @@ function About({ selector }) {
           <span className="over_tilt"></span>
           <span className="over_tilt"></span>
           <ImgWrap className="img-wrap">
-            <img src={about_us_img} alt="about us" />
+            <picture>
+              <source srcset={about_us_img_WEBP} type="image/webp" />
+              <source srcset={about_us_img_PNG} type="image/png" />
+              <img src={about_us_img_PNG} alt="image" />
+            </picture>
           </ImgWrap>
         </AboutUsImg>
         <AboutUsText>
