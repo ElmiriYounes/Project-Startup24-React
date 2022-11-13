@@ -22,7 +22,6 @@ export const ServiceCardWrapper = styled.div`
 
   &:hover .service_card{
     transform: rotateX(180deg);
-    z-index: 0;
   }
 
   &:hover .service_title {
@@ -30,21 +29,22 @@ export const ServiceCardWrapper = styled.div`
   }
   &:hover .service_desc {
     transform: rotateX(0) translateZ(0);
+    z-index: 0;
   }
 `;
 
 export const ServiceCard = styled.div`
   perspective: 500px;
   transform-style: preserve-3d;
-  transition: all 1s linear;
+  transition: all 1s linear, z-index 1s 0.5s linear;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  background-color: red;
-  z-index: 1;
+  background-color: rgb(219, 147, 21);
+  border-radius: 20px;
 `;
 
 export const ServiceTitle = styled.div`
@@ -63,6 +63,7 @@ export const ServiceDesc = styled.p`
   padding: 5px 10px;
   text-align: center;
   transition: all 1s linear;
+  z-index: -1;
   height: 100%;
   width: 100%;
   display: flex;
