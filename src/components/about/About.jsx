@@ -77,8 +77,8 @@ function About({ selector }) {
           <span className="over_tilt"></span>
           <ImgWrap className="img-wrap">
             <picture>
-              <source srcset={about_us_img_WEBP} type="image/webp" />
-              <source srcset={about_us_img_PNG} type="image/png" />
+              <source srcSet={about_us_img_WEBP} type="image/webp" />
+              <source srcSet={about_us_img_PNG} type="image/png" />
               <img src={about_us_img_PNG} alt="image" />
             </picture>
           </ImgWrap>

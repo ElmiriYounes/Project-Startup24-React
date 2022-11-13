@@ -6,6 +6,7 @@ import {
   ServiceCardWrapper,
   ServiceDesc,
   ServiceTitle,
+  BackgroundColor,
 } from "./ServicesStyle";
 
 const Services = ({ selector }) => {

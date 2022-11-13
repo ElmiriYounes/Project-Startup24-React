@@ -221,7 +221,7 @@ export const ScrollYProgressWrap = styled.div`
   overflow: hidden;
   left: 0;
   bottom: -3px;
-  background-color: rgb(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.329);
 `;
 
 export const ScrollYProgress = styled.div`

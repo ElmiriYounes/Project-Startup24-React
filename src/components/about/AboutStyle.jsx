@@ -123,7 +123,7 @@ function getNthChildOverTilt() {
       rotateY[i - 1]
     }deg);
         }
-        .over_tilt:nth-child(${i}):hover ~ .img-wrap img{
+        .over_tilt:nth-child(${i}):hover ~ .img-wrap picture{
           transform: translateZ(60px);
         }
     `;
@@ -143,8 +143,11 @@ export const ImgWrap = styled.div`
   transform-style: preserve-3d;
   transition: all 0.3s linear;
 
-  img {
+  picture{
     transition: all 0.3s linear;
+  }
+
+  img {
     position: relative;
     width: 350px;
     height: 100%;

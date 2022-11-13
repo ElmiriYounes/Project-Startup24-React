@@ -18,15 +18,18 @@ export const ServiceCardWrapper = styled.div`
   height: 250px;
   width: 225px;
   margin: 10px;
-  &:hover .service_card {
+
+
+  &:hover .service_card{
     transform: rotateX(180deg);
+    z-index: 0;
   }
+
   &:hover .service_title {
     transform: translateZ(90px);
   }
   &:hover .service_desc {
     transform: rotateX(0) translateZ(0);
-    z-index: 0;
   }
 `;
 
@@ -36,12 +39,12 @@ export const ServiceCard = styled.div`
   transition: all 1s linear;
   width: 100%;
   height: 100%;
-  background-color: rgb(195, 132, 23);
-  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  background-color: red;
+  z-index: 1;
 `;
 
 export const ServiceTitle = styled.div`
@@ -67,6 +70,5 @@ export const ServiceDesc = styled.p`
   align-items: center;
   position: absolute;
   top: 0;
-  z-index: -1;
   transform: rotateX(-180deg) translateZ(90px);
 `;

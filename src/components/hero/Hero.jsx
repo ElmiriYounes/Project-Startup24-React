@@ -57,8 +57,8 @@ const Hero = (props) => {
           <span className="over_tilt"></span>
           <ImageWrap className="img-wrap">
             <picture>
-              <source srcset={Startup_WEBP} type="image/webp" />
-              <source srcset={Startup_PNG} type="image/png" />
+              <source srcSet={Startup_WEBP} type="image/webp" />
+              <source srcSet={Startup_PNG} type="image/png" />
               <img src={Startup_PNG} alt="image" />
             </picture>
           </ImageWrap>

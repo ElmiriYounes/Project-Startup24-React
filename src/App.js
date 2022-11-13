@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route
           path={
-            window.location.hostname === "localhost:3000"
+            window.location.hostname.substring(0, 9) === "localhost"
               ? "/"
               : "/Project-Startup24-React"
           }

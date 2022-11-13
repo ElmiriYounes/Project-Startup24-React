@@ -74,8 +74,8 @@ const Navbar = (props) => {
         <Logo>
           <Link to="/">
             <picture>
-              <source srcset={Logo_WEBP} type="image/webp" />
-              <source srcset={Logo_PNG} type="image/png" />
+              <source srcSet={Logo_WEBP} type="image/webp" />
+              <source srcSet={Logo_PNG} type="image/png" />
               <img src={Logo_PNG} alt="logo" />
             </picture>
           </Link>

@@ -134,11 +134,14 @@ export const ImageWrap = styled.div`
   perspective: 1000px;
   transform-style: preserve-3d;
 
+  picture{
+    transition: all 0.6s ease-out;
+    transform: translateZ(0);
+  }
+
   img {
     width: 100%;
     height: 100%;
-    transition: all 0.6s ease-out;
-    transform: translateZ(0);
   }
 `;
 
@@ -192,7 +195,7 @@ function getNthChildOverTilt(n) {
         rotateY[i - 1]
       }deg);
         }
-        .over_tilt:nth-child(${i}):hover ~ .img-wrap img{
+        .over_tilt:nth-child(${i}):hover ~ .img-wrap picture{
           transform: translateZ(60px);
         }
     `;
